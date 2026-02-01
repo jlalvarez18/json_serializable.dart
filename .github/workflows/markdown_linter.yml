@@ -13,6 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8
       - uses: gaurav-nelson/github-action-markdown-link-check@5c5dfc0ac2e225883c0e5f03a85311ec2830d368
+        with:
+          config-file: .github/markdown-link-check-config.json
   markdown_lint:
     runs-on: ubuntu-latest
     steps:
