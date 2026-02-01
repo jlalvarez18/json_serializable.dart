@@ -15,6 +15,7 @@ jobs:
       - uses: gaurav-nelson/github-action-markdown-link-check@5c5dfc0ac2e225883c0e5f03a85311ec2830d368
         with:
           config-file: .github/markdown-link-check-config.json
+          use-verbose-mode: "yes"
   markdown_lint:
     runs-on: ubuntu-latest
     steps:

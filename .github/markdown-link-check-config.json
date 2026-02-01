@@ -4,6 +4,5 @@
       "pattern": "^https://github\\.com",
       "rc": 429
     }
-  ],
-  "use-verbose-mode": "yes"
+  ]
 }
